@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBarMain.toolbar)
 
         binding.appBarMain.fab.setOnClickListener { view ->
-            val snackbar = Snackbar.make(view, "https://blox-land.onrender.com", Snackbar.LENGTH_LONG)
+            val snackbar = Snackbar.make(view, "https://github.com/LukeBlueLOx/BLOX-PPR", Snackbar.LENGTH_LONG)
             snackbar.setAction("Action", null)
 
             val snackbarView = snackbar.view
